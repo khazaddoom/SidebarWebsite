@@ -23,7 +23,7 @@ body {
     background: #00ff37;
 }
 
-.sideBar div {
+.sideBar div.navButton{
     border: 1px solid;
     height: 30px;
     margin: 20px 20px 20px 20px;
@@ -32,9 +32,9 @@ body {
     background: grey;    
 }
 
-div .errored {
+div.errored {
     
-    background: #ff0000;
+    background: #ff0000 !important;
 }
 
 div .errored a {
